@@ -2,4 +2,4 @@
 set -e
 
 # Stop the running container (if any)
-echo "Hi"
+docker run -d -p 6000:9000 dineshkumar021993/samplepythonawscodedeploy
